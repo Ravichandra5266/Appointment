@@ -1,0 +1,131 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: serif;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+}
+.bg-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  min-height: 30vh;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+.lg-flex-card {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .lg-flex-card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #171f46;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.label {
+  font-weight: 550;
+}
+.title-input {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid gray;
+  font-weight: 550;
+  cursor: pointer;
+}
+.date-input {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid gray;
+  font-weight: 550;
+  cursor: pointer;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 550;
+}
+.lg-banner-card {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .lg-banner-card {
+    display: block;
+    width: 40%;
+  }
+}
+.lg-banner {
+  width: 100%;
+}
+.line {
+  width: 100%;
+  border: 1px solid gray;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.control-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.control-card b {
+  font-weight: 700;
+}
+.inActive-start-btn {
+  border: 1px solid #8b5cf6;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 550;
+  font-size: medium;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+.star-btn-active {
+  background-color: #8b5cf6;
+  color: white;
+}
+.appointment-items-card {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0%;
+  list-style-type: none;
+  margin-top: 50px;
+}
